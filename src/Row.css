@@ -1,0 +1,57 @@
+.row-image{
+    object-fit: contain;
+    width: 100%;
+    max-height: 170px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.row-image-large{
+    object-fit: contain;
+    width: 100%;
+    max-height: 350px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    width: 110%;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    padding: 20px;
+}
+
+.row-image:hover{
+    transform: scale(1.08);
+}
+
+.row::-webkit-scrollbar{
+  display: none;
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    border-radius: 50px;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    visibility: hidden;
+}
+.right{
+    position: absolute;
+    top: 45%;
+    left: 97%;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.container{
+    position:relative;
+}

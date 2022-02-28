@@ -1,0 +1,29 @@
+.Nav-image{
+    display: block;
+    object-fit: contain;
+    height: 50px;
+    margin:10px 40px;
+}
+
+.Nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition-timing-function: ease-in;
+    transition: all 0.8s;
+    z-index: 1;
+}
+
+
+.black{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
